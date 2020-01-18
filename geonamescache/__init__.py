@@ -22,6 +22,7 @@ from . import geonamesdata
 class GeonamesCache:
 
     us_states = geonamesdata.us_states
+    canada_provinces = geonamesdata.canada_provinces
     continents = None
     countries = None
     cities = None
@@ -47,11 +48,17 @@ class GeonamesCache:
     def get_us_states(self):
         return self.us_states
 
+    def get_canada_provinces(self):
+        return self.canada_provinces
+
     def get_countries_by_names(self):
         return self.get_dataset_by_key(self.get_countries(), 'name')
 
     def get_us_states_by_names(self):
         return self.get_dataset_by_key(self.get_us_states(), 'name')
+
+    def get_canada_provinces_by_names(self):
+        return self.get_dataset_by_key(self.get_canada_provinces(), 'name')
 
     def get_cities(self):
         """Get a dictionary of cities keyed by geonameid."""

@@ -52,3 +52,19 @@ us_states = {
     'WV': {'code': 'WV', 'name': 'West Virginia', 'fips': '54', 'geonameid': 4826850},
     'WY': {'code': 'WY', 'name': 'Wyoming', 'fips': '56', 'geonameid': 5843591}
 }
+
+canada_provinces = {
+    'AB': {'code': 'AB', 'name': 'Alberta', 'fips': '01', 'geonameid': 5883102},
+    'BC': {'code': 'BC', 'name': 'British Columbia', 'fips': '02', 'geonameid': 5909050},
+    'MB': {'code': 'MB', 'name': 'Manitoba', 'fips': '03', 'geonameid': 6065171},
+    'NB': {'code': 'NB', 'name': 'New Brunswick', 'fips': '04', 'geonameid': 6087430},
+    'NL': {'code': 'NL', 'name': 'Newfoundland and Labrador', 'fips': '05', 'geonameid': 6354959},
+    'NS': {'code': 'NS', 'name': 'Nova Scotia', 'fips': '07', 'geonameid': 6091530},
+    'NT': {'code': 'NT', 'name': 'Northwest Territories', 'fips': '13', 'geonameid': 6091069},
+    'NU': {'code': 'NU', 'name': 'Nunavut', 'fips': '14', 'geonameid': 6091732},
+    'ON': {'code': 'ON', 'name': 'Ontario', 'fips': '08', 'geonameid': 6093943},
+    'PE': {'code': 'PE', 'name': 'Prince Edward Island', 'fips': '09', 'geonameid': 6113358},
+    'QC': {'code': 'QC', 'name': 'Quebec', 'fips': '10', 'geonameid': 6115047},
+    'SK': {'code': 'SK', 'name': 'Saskatchewan', 'fips': '11', 'geonameid': 6141242},
+    'YT': {'code': 'YT', 'name': 'Yukon Territory', 'fips': '12', 'geonameid': 6185811},
+}
